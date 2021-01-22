@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Paint On Canvas</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <canvas class="canvas"></canvas>
+        <div class="controls">
+            <button class="clear">Clear Canvas</button>
+            <div class="brush-shape-container">
+                <p>Brush Shape</p>
+                <div class="shapes">
+                    <span data-shape="circle" class="shape circle"></span>
+                    <span data-shape="square" class="shape"></span>
+                </div>
+            </div>
+            <div class="colours-container">
+                <p>Ink Colour</p>
+                <div class="colours">
+                    <span data-col="red" class="red colour"></span>
+                    <span data-col="orange" class="orange colour"></span>
+                    <span data-col="yellow" class="yellow colour"></span>
+                    <span data-col="green" class="green colour"></span>
+                    <span data-col="blue" class="blue colour"></span>
+                    <span data-col="indigo" class="indigo colour"></span>
+                    <span data-col="violet" class="violet colour"></span>
+                    <span data-col="black" class="black colour"></span>
+                </div>
+            </div>
+            <div class="brush-size-container">
+                <p>Brush Size</p>
+                <button class="size-down size-btn" data-size="smaller">-</button>
+                <button class="size-up size-btn" data-size="bigger">+</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/script.js" charset="utf-8"></script>
+</body>
+</html>
